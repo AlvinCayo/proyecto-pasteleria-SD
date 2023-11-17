@@ -3,6 +3,8 @@ import "./card3.css";
 import { Buscador } from "./buscador";
 import { ButtonStars } from "./buttonStars";
 import { Categories } from "./categories/categories";
+import { Options } from "./options";
+import { Ico1 } from "./options/ico1";
 
 export const Card3 = () => {
   return (
@@ -33,6 +35,9 @@ export const Card3 = () => {
         <Categories></Categories>
 
       </div>
+      <Options>
+        <Ico1></Ico1>
+      </Options>
     </div>
   );
 };
