@@ -13,5 +13,12 @@ body {
 button {
   border: 1px solid transparent;
   font-family: Poppins;
-  
+}
+
+.titulo1 {
+  font-family: "Kaushan Script", cursive;
+}
+
+.titulo2 {
+  font-family: "Modern Antiqua", serif;
 }
