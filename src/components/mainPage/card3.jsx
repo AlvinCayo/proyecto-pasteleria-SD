@@ -2,6 +2,7 @@ import React from "react";
 import "./card3.css";
 import { Buscador } from "./buscador";
 import { ButtonStars } from "./buttonStars";
+import { Categories } from "./categories/categories";
 
 export const Card3 = () => {
   return (
@@ -29,6 +30,8 @@ export const Card3 = () => {
         <i className="iconoB"><img src="./public/IconoBuscador.svg" alt="iconB" /></i>
         <ButtonStars></ButtonStars>
         <div className="category">Categorias</div>
+        <Categories></Categories>
+
       </div>
     </div>
   );
