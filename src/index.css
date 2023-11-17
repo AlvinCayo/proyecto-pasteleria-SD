@@ -1,5 +1,6 @@
 :root {
   text-rendering: optimizeLegibility;
+  background-color: black;
 }
 
 body {
@@ -21,4 +22,12 @@ button {
 
 .titulo2 {
   font-family: "Modern Antiqua", serif;
+}
+
+title{
+  font-family: 'Actor', sans-serif;
+}
+
+.letras{
+  font-family: Poppins;
 }

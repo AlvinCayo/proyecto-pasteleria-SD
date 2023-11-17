@@ -1,0 +1,25 @@
+.buscador {
+  width: 261px;
+  height: 37px;
+  position: absolute;
+  top: 160px;
+  left: 27px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 4px 4px rgba(155, 52, 52, 0.25);
+}
+
+.letras {
+  position: absolute;
+  width: 132.43px;
+  height: 13px;
+  top: 13px;
+  left: 36.43px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(183, 183, 183, 1);
+}
