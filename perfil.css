@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.profile-container {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 400px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #9b3434 50%, #fff 50%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+.profile-label {
+  font-weight: bold;
+  margin-bottom: 20px; /* Aumenta el espacio entre los elementos */
+  color: #fbfbfb; /* Letras rojas */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.profile-image {
+  width: 100px; /* Aumenta el tamaño de la imagen */
+  height: 100px; /* Aumenta el tamaño de la imagen */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px; /* Aumenta el espacio entre la imagen y el texto */
+  margin-right: 20px; /* Mueve la imagen a la derecha */
+}
+
+.profile-status {
+  margin-bottom: 20px; /* Aumenta el espacio entre la imagen y el texto */
+}
+
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-button {
+  margin-bottom: 20px; /* Aumenta el espacio entre los botones */
+  padding: 10px; /* Aumenta el tamaño de los botones */
+  background-color: #fff; /* Fondo blanco */
+  color: #9b3434; /* Letras rojas */
+  border: 1px solid #9b3434; /* Contorno rojo */
+  border-radius: 8px; /* Aumenta el radio de los bordes */
+  cursor: pointer;
+  font-size: 18px; /* Aumenta el tamaño de la letra */
+}
+
+.profile-button:hover {
+  background-color: #9b3434; /* Fondo rojo al pasar el mouse */
+  color: #fff; /* Letras blancas al pasar el mouse */
+}
+
+/* Media query para dispositivos con un ancho máximo de 600px */
+@media (max-width: 600px) {
+  .profile-label {
+    text-align: left; /* Alinea el texto a la izquierda en dispositivos pequeños */
+  }
+}
