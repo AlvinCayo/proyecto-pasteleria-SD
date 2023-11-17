@@ -1,5 +1,13 @@
+.p1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
 img{
     border-radius: 30px;
-    position: relative;
 }
