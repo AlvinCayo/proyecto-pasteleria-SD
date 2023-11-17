@@ -1,9 +1,9 @@
 .buscador {
   width: 261px;
   height: 37px;
-  position: absolute;
-  top: 160px;
-  left: 27px;
+  position: relative;
+  top: 2px;
+  left: 2px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 1px 1px 4px 4px rgba(155, 52, 52, 0.25);

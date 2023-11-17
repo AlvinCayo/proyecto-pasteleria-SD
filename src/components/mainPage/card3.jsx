@@ -1,6 +1,7 @@
 import React from "react";
 import "./card3.css";
 import { Buscador } from "./buscador";
+import { ButtonStars } from "./buttonStars";
 
 export const Card3 = () => {
   return (
@@ -25,6 +26,9 @@ export const Card3 = () => {
       </div>
       <div className="group5">
         <Buscador></Buscador>
+        <i className="iconoB"><img src="./public/IconoBuscador.svg" alt="iconB" /></i>
+        <ButtonStars></ButtonStars>
+        <div className="category">Categorias</div>
       </div>
     </div>
   );

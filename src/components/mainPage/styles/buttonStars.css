@@ -1,0 +1,33 @@
+.bStars {
+  width: 225px;
+  height: 33px;
+  position: absolute;
+  top: 53px;
+  left: 2px;
+  border-radius: 5px;
+  border: 1px;
+  border: 1px solid rgba(155, 52, 52, 1);
+}
+
+.star {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.nameB {
+  width: 112px;
+  height: 11px;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(155, 52, 52, 1);
+}

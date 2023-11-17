@@ -89,3 +89,37 @@
   top: 219px;
   left: 323px;
 }
+
+.group5 {
+  width: 329px;
+  height: 87px;
+  position: absolute;
+  display: flex;
+  top: 160px;
+  left: 27px;
+  border: 1px;
+}
+
+.iconoB {
+  width: 47px;
+  height: 37px;
+  position: absolute;
+  top: -2px;
+  left: 285px;
+  border-radius: 5px;
+}
+
+.category {
+  width: 78px;
+  height: 17px;
+  position: absolute;
+  top: 93px;
+  left: 9px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(155, 52, 52, 1);
+}
