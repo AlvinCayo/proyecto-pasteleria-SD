@@ -1,9 +1,7 @@
-// Button1.js
-
 import React from "react";
-import "./button1.css";
+import "./button.css";
 
-export const Button1 = ({
+export const Button = ({
   name,
   backgroundColor,
   textColor,

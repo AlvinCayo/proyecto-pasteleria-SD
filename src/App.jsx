@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import { Card1 } from './views/ladingPage/card1'
+import { View1 } from './views/view1/view1'
 
 function App() {
 
   return (
     <>
       <div>
-        <Card1/>
+        <View1/>
       </div>
     </>
   )

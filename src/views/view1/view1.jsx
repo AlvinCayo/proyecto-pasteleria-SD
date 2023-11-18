@@ -1,9 +1,9 @@
 import React from "react";
-import "./card1.css";
-import { Button1 } from "../../components/button1/button1";
-import buttonData from "../../components/button1/buttonData";
+import "./view1.css";
+import { Button } from "../../components/button/button";
+import buttonData from "../../components/button/buttonData";
 
-export const Card1 = () => {
+export const View1 = () => {
   return (
     <div className="p1">
       <img src="./public/pasteleria-san-diego.jpg" alt="imagen" />
@@ -12,7 +12,7 @@ export const Card1 = () => {
       {
         <div className="searchButtons">
           {buttonData.map((button, index) => (
-            <Button1
+            <Button
               key={index}
               name={button.name}
               backgroundColor={button.backgroundColor}
