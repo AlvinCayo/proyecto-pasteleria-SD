@@ -1,8 +1,27 @@
-import React from 'react'
-import "./button1.css"
+// Button1.js
 
-export const Button1 = () => {
+import React from "react";
+import "./button1.css";
+
+export const Button1 = ({
+  name,
+  backgroundColor,
+  textColor,
+  fontSize,
+  fontFamily,
+}) => {
   return (
-    <button className='btn1'>Ingresar como invitado</button>
-  )
-}
+    <button
+      className="botones"
+      style={{
+        backgroundColor: backgroundColor,
+        color: textColor,
+        fontSize: fontSize,
+        fontFamily: fontFamily,
+      }}
+    >
+      {name}
+    </button>
+  );
+};
+
