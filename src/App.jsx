@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import { Card1 } from './components/page/card1'
+import Back from './components/Back'
+import Logo from './components/Logo'
 
 function App() {
 
   return (
     <>
-      <div>
-        <Card1></Card1>
-      </div>
+      <Back />
+      <Logo/>
     </>
   )
 }
