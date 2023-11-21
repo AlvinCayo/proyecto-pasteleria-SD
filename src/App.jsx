@@ -4,6 +4,7 @@ import Back from './components/Back'
 import Logo from './components/Logo'
 import Welcome from './components/Welcome'
 import Datos from './components/Datos'
+import Registrar from './components/Registrar'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Logo/>
       <Welcome/>
       <Datos/>
+      <Registrar/>
     </>
   )
 }
