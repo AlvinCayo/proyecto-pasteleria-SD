@@ -1,0 +1,6 @@
+.Rectangulo {
+  width: 375px;
+  height: 171px;
+  flex-shrink: 0;
+  background: #c02428;
+}
