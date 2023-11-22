@@ -19,3 +19,6 @@ h3{
     justify-content: center;
     flex-direction: column;
 }
+.bandera{
+    display: flex;
+}

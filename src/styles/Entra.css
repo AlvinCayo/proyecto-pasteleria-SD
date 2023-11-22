@@ -1,0 +1,22 @@
+.style5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Miembro{
+    color: #494949;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Entra{
+    color: #494949;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}

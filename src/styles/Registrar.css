@@ -1,6 +1,27 @@
 .style4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boton1{
     width: 274px;
     height: 38px;
+    top: 621px;
+    left: 51px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #E01F23 0%, #E01F23 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registrar{
+    width: 76px;
+    height: 21px;
     flex-shrink: 0;
-    background-color: red;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

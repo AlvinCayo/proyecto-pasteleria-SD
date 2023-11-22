@@ -8,6 +8,7 @@ function Datos(){
                 <input type="text" className="box1"/>
                 <h3 >Numero de telefono</h3>
                 <input type="text" className="box1"/>
+                <i><img src="indonesia 1.png" alt="bandera" className="bandera"/></i>
                 <h3 >Contraseña</h3>
                 <input type="text" className="box1"/>
                 <h3 >Confirmar contraseña</h3>
