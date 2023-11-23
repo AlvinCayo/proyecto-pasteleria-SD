@@ -1,18 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Registro from './components/Registro'
-import Notificaciones from './components/Notificaciones'
+import { View1 } from './views/view1/view1'
+import { View2 } from './views/view2/view2'
+import { Home } from './views/home/home'
 
 function App() {
 
   return (
     <>
-    <div>
-      <Notificaciones/>
-    </div>
-    <div>
-      <Registro/>
-    </div>
+      <div>
+        <Home/>
+      </div>
     </>
   )
 }

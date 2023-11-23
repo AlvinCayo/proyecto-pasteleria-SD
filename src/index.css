@@ -1,0 +1,37 @@
+:root {
+  text-rendering: optimizeLegibility;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border: 1px solid transparent;
+  font-family: Poppins;
+}
+
+.titulo1 {
+  font-family: "Kaushan Script", cursive;
+}
+
+.titulo2 {
+  font-family: "Modern Antiqua", serif;
+}
+
+title {
+  font-family: "Actor", sans-serif;
+}
+
+.letras {
+  font-family: Poppins;
+}
+
+.namePage {
+  font-family: "Actor", sans-serif;
+}
