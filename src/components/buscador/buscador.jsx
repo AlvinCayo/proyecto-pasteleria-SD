@@ -4,7 +4,7 @@ import './buscador.css'
 export const Buscador = ({ letras }) => {
   return (
     <div className='buscador'>
-        <div className='letras'>{letras}</div>
+        <div className='letrasb'>{letras}</div>
     </div>
   )
 }

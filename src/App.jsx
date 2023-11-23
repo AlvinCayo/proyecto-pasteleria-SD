@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <View2/>
+        <Home/>
       </div>
     </>
   )
