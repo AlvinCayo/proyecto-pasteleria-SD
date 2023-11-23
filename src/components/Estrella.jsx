@@ -6,7 +6,7 @@ function Estrella() {
     <section className="seccion2">
       <div>
         <div>
-          <p>
+          <p className="descripcion">
             Acumula estrellas. Con Pastelería San Diego® Rewards, cada 20 Bs.
             gastado en tus compras, automaticamente se convertirá en 100
             estrellas en tu app. Tantas estrellas 🌟 que necesitarás tus 🕶️.
@@ -18,7 +18,7 @@ function Estrella() {
         </div>
         <div className="acumuladas">
           <h2>Estrellas Acumuladas </h2>
-          <h2>Total _______________ 100 🌟</h2>
+          <h2 className="total">Total _______________ 100 🌟</h2>
           <button className="estrellaboton">Ganar Estrellas</button>
         </div>
       </div>
