@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <div className="p3">
       <div className="inicio">
-        <Buscador letras="Buscar Pastel" />
+        <Buscador letras="Buscar Productos" />
         <NamePage nombrePagina="Productos" />
       </div>
       <Options />

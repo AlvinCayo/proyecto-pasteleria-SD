@@ -7,7 +7,7 @@ export const Button2 = ({
   textColor,
   fontSize,
   fontFamily,
-  svg,
+  svg ="",
 }) => {
   return (
     <button
@@ -19,7 +19,6 @@ export const Button2 = ({
         fontFamily: fontFamily,
       }}
     >
-      {/* {svg && <img src={svg} alt="" />} */}
       {svg && <img src={svg} alt="" style={{ marginRight: '10px' }} />}
       {name}
     </button>
