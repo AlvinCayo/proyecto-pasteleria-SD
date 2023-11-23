@@ -13,7 +13,7 @@
 }
 .containerButtons2 {
   position: relative;
-  top: 110px;
+  top: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,15 +23,15 @@
 
 .Dingreso {
   position: relative;
-    top: 0px;
-    left: -5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px;
-    align-content: center;
-    align-items: flex-start;
+  top: 0px;
+  left: -5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  align-content: center;
+  align-items: flex-start;
 }
 
 .arriba {
@@ -41,7 +41,7 @@
   position: absolute;
   width: 240px;
   height: 50px;
-  top: 20px;
+  top: 30px;
   left: 20px;
   margin-left: 0px;
   margin-right: 0px;
@@ -53,6 +53,23 @@
   width: 226px;
   height: 56px;
   position: relative;
-  top: -300px;
-  left: -20px;
+  top: -270px;
+  left: -25px;
+}
+
+.Oingreso {
+  width: 375px;
+  height: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;  
+}
+
+.registro{
+  position: relative;
+  top: 150px;
 }
