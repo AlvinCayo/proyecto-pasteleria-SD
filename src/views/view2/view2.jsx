@@ -8,6 +8,7 @@ import { Buscador } from "../../components/buscador/buscador";
 import { IncomeD } from "../../components/incomeData/incomeD";
 import { ButtonE } from "../../components/buttonEntry/buttonE";
 import { Tittle2 } from "../../components/tittle2/tittle2";
+import { Label } from "../../components/label/label";
 
 export const View2 = () => {
   return (
@@ -18,7 +19,9 @@ export const View2 = () => {
       </div>
 
       <div className="Dingreso">
+        <Label contenido="Correo" />
         <IncomeD letras="Ingresa tu Correo" />
+        <Label contenido="Contraseña" />
         <IncomeD letras="Ingresa tu contraseña" />
         <ButtonE />
       </div>
@@ -26,7 +29,7 @@ export const View2 = () => {
       <div className="tittle2">
         <Tittle2 titulo="Bienvenido Inicia tu Sesión!" />
       </div>
-      <div className="containerButtons2"> 
+      <div className="containerButtons2">
         {buttonData2.map((button, index) => (
           <Button2
             key={index}

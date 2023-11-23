@@ -23,13 +23,15 @@
 
 .Dingreso {
   position: relative;
-  top: 0px;
-  left: -5px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  gap: 30px;
+    top: 0px;
+    left: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+    align-items: flex-start;
 }
 
 .arriba {
