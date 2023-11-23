@@ -4,7 +4,46 @@
   height: 171px;
   flex-shrink: 0;
 }
-
+.paisicono {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 1px 0;
+  width: 150px;
+}
+.nombres {
+  width: 301px;
+  height: 56px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Actor;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: space-around;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.nombres2 {
+  width: 301px;
+  height: 56px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Actor;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: space-around;
+  margin: 10px -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
 .pais {
   width: 128px;
   height: 17px;
@@ -17,7 +56,10 @@
   line-height: normal;
   font-family: "Poppins", sans-serif;
 }
-
+.icono {
+  width: 20px;
+  height: 20px;
+}
 .messi {
   width: 100px;
   height: 100px;
@@ -25,4 +67,17 @@
   border-radius: 100px;
   margin-left: 240px;
   margin-top: 105px;
+}
+
+.cuenta {
+  width: 78px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #9b3434;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 50px 35px 0;
 }

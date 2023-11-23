@@ -3,7 +3,7 @@ import "../styles/Boton.css";
 
 function Boton() {
   return (
-    <section>
+    <section className="seccion">
       <div>
         <button className="boton">
           <img src="mujer.png" alt="mujer" className="mujer" />
