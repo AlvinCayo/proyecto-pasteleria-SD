@@ -1,10 +1,11 @@
 import React from 'react'
 import './buscador.css'
 
-export const Buscador = () => {
+export const Buscador = ({ letras }) => {
   return (
     <div className='buscador'>
-        <div className='letras'>Buscar Pastel</div>
+        <div className='letras'>{letras}</div>
     </div>
   )
 }
+

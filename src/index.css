@@ -24,10 +24,14 @@ button {
   font-family: "Modern Antiqua", serif;
 }
 
-title{
-  font-family: 'Actor', sans-serif;
+title {
+  font-family: "Actor", sans-serif;
 }
 
-.letras{
+.letras {
   font-family: Poppins;
+}
+
+.namePage {
+  font-family: "Actor", sans-serif;
 }
