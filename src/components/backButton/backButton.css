@@ -1,0 +1,10 @@
+.bButton {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  background-color: transparent;
+}
+
+img{
+  border-radius: 0px;
+}

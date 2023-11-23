@@ -9,7 +9,7 @@ export const View2 = () => {
   return (
     <div className="p2">
       <Tittle/>
-      <BackButton className="bButton"/>
+      <BackButton/>
       <div className="containerButtons2">
         {buttonData2.map((button, index) => (
           <Button2
