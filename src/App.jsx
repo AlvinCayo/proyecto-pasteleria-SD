@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import './App.css'
 import { Card2 } from './components/pages/localitation/card2'
 import { Burb } from './components/atoms/burb'
 import { Alarm } from './components/atoms/alarm'
+import { Card } from './components/pages/shopping/card'
+import './App.css'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Alarm></Alarm>
         </div>
       </div>
+      {/* <Card></Card> */}
     </>
   )
 }
