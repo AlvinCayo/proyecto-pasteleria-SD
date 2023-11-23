@@ -1,13 +1,15 @@
 import { useState } from "react";
-import './App.css'
-import Rectangulo from './components/Rectangulo'
+import "./App.css";
+import Rectangulo from "./components/Rectangulo";
+import Boton from "./components/Boton";
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-      <Rectangulo/>
+      <Rectangulo />
+      <Boton />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

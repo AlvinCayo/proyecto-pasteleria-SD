@@ -1,3 +1,28 @@
-h1{
-  background-color: red;
+.rectangulo {
+  background: #c02428;
+  width: 375px;
+  height: 171px;
+  flex-shrink: 0;
+}
+
+.pais {
+  width: 128px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.messi {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  margin-left: 240px;
+  margin-top: 105px;
 }

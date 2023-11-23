@@ -1,0 +1,29 @@
+.boton {
+  width: 305px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #9b3434;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.mujer {
+  width: 25px;
+  height: 25px;
+}
+.flecha {
+  width: 11px;
+  height: 15px;
+}
+.letras {
+  width: 152px;
+  height: 15px;
+  flex-shrink: 0;
+  color: #9b3434;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
