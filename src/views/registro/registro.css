@@ -1,0 +1,22 @@
+.p2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #bdbfbf;
+    width: 375px;
+    height: 812px;
+  }
+  .containerRegistro {
+    position: relative;
+    top: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
