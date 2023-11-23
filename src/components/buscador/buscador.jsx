@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/buscador.css'
+import './buscador.css'
 
 export const Buscador = () => {
   return (

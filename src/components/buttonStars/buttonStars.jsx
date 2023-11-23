@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/buttonStars.css'
+import './buttonStars.css'
 
 export const ButtonStars = () => {
   return (
