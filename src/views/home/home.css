@@ -1,0 +1,23 @@
+.p3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #fff;
+  width: 375px;
+  height: 812px;
+}
+
+.inicio {
+  width: 375px;
+  height: 171px;
+  flex-shrink: 0;
+  background: #C02428;
+  position: absolute;
+  top: 0px;
+  border-radius: 30px 30px 0 0;
+}

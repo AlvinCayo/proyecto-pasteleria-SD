@@ -4,6 +4,9 @@ import { Burb } from './components/atoms/burb'
 import { Alarm } from './components/atoms/alarm'
 import { Card } from './components/pages/shopping/card'
 import './App.css'
+import { View1 } from './views/view1/view1'
+import { View2 } from './views/view2/view2'
+import { Home } from './views/home/home'
 
 function App() {
   return (
