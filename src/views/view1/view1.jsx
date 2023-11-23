@@ -10,7 +10,7 @@ export const View1 = () => {
       <div className="titulo1">San Diego</div>
       <div className="titulo2">Pastelería Artesanal</div>
       {
-        <div className="searchButtons">
+        <div className="containerButtons">
           {buttonData.map((button, index) => (
             <Button
               key={index}
