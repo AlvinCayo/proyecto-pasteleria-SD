@@ -20,3 +20,33 @@
     flex-direction: column;
     gap: 10px;
   }
+  .datos{
+    margin: 0 10px;
+    top: 100px;
+    right: 85px;
+    position: absolute;
+  }
+  .co{
+    margin: 30px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+  }
+  .num{
+    margin: 30px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+  }
+  .cont{
+    margin: 30px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+  }
+  .conf{
+    margin: 30px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+  }
