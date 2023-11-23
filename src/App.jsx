@@ -14,7 +14,7 @@ function App() {
       <div>
         <Boton />
       </div>
-      <div>
+      <div className="borde">
         <RectanguloV2 />
         <Estrella />
       </div>

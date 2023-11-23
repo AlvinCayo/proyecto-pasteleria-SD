@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: -200px;
+  margin-top: 190px;
 }
 .total {
   width: 288px;
@@ -57,11 +57,4 @@
   line-height: normal;
   margin: 0 35px;
   margin-top: 50px;
-}
-.borde {
-  border: 1px solid #e01f23;
-  width: 375px;
-  height: 836px;
-  border-radius: 30px;
-  background: #fff;
 }

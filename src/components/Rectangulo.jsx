@@ -12,11 +12,13 @@ function Rectangulo() {
               alt="icono"
               className="icono"
             />
-            <h3>La Paz, Bolivia</h3>
+            <h3 className="lapazbo">La Paz, Bolivia</h3>
           </div>
 
           <h3 className="nombres">Frionel Fressi Cuchitini</h3>
-          <h3 className="nombres2">24 junio 1987</h3>
+          <h3 className="nombres2">
+            <strong>24 junio 1987</strong>
+          </h3>
         </div>
         <img src="messi.jpg" alt="messi" className="messi" />
       </div>

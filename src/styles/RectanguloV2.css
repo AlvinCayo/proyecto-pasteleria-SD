@@ -18,6 +18,7 @@
 .estrella {
   width: 54px;
   height: 54px;
+  margin-top: 55px;
 }
 .flecha {
   width: 11px;
@@ -40,9 +41,18 @@
   flex-shrink: 0;
   color: #fff;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   display: flex;
+  margin-top: 63px;
+  margin-left: 20px;
+}
+.encabezado {
+  width: 273px;
+  height: 96px;
+  flex-shrink: 0;
+  display: flex;
+  margin: 15px;
 }
