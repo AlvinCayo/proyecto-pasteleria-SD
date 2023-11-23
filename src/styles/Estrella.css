@@ -1,0 +1,28 @@
+.seccion2 {
+  width: 375px;
+  height: 836px;
+  border-radius: 30px;
+  background: #fff;
+}
+.estrellaboton {
+  width: 192px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #e01f23;
+  background: #fff;
+  color: #e01f23;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.acumuladas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

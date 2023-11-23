@@ -3,6 +3,7 @@
   width: 375px;
   height: 171px;
   flex-shrink: 0;
+  border-radius: 10px;
 }
 .paisicono {
   display: flex;
