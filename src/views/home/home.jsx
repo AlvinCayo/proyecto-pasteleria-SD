@@ -9,7 +9,7 @@ export const Home = () => {
     <div className="p3">
       <div className="inicio">
         <Buscador letras="Buscar Pastel" />
-        <NamePage nombrePagina="Productos" />
+        <NamePage nombrePagina="carrito" />
       </div>
       <Options/>
     </div>
