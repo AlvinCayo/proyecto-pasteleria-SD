@@ -11,6 +11,11 @@ export const Card = () => {
       <p className="local"> La Paz, Bolivia</p>
       <p className="mm"> Mi Carrito</p>
       <Tort></Tort>
+      <input
+        type="text"
+        className="busqueda"
+        placeholder="Buscar en mi carrito"
+      ></input>
     </div>
   )
 }
