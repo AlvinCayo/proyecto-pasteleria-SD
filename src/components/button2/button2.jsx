@@ -1,5 +1,5 @@
-import "./button2.css";
-import React from "react";
+import './button2.css'
+import React from 'react'
 
 export const Button2 = ({
   name,
@@ -23,5 +23,5 @@ export const Button2 = ({
       {svg && <img src={svg} alt="" style={{ marginRight: '10px' }} />}
       {name}
     </button>
-  );
-};
+  )
+}
