@@ -29,7 +29,7 @@ export const View2 = () => {
         <Tittle2 titulo="Bienvenido Inicia tu Sesión!" />
       </div>
       <div className="Oingreso">
-        <ButtonE />
+        <ButtonE nombre="Ingresar" />
         <Label contenido="Olvidó su Contraseña?" tamano="13px" />
         <Label contenido="o Iniciar con" tamano="13px" />
       </div>
