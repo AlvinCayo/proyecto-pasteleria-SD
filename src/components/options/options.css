@@ -1,8 +1,13 @@
 .opciones {
   width: 375px;
-  height: 50px;
-  position: absolute;
-  top: 754px;
-  background-color: rgba(224, 31, 35, 1);
-  border-radius: 0px 0px 12px 12px;
+    height: 50px;
+    position: absolute;
+    top: 754px;
+    background-color: rgba(224, 31, 35, 1);
+    border-radius: 0px 0px 18px 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
