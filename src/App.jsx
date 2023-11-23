@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className="rectangulo">
+      {/* <div className="rectangulo">
         <img src="map.png" alt=""></img>
         <p className="h">0h 15m</p>
         <p className="d">El delivery llegara</p>
@@ -22,8 +22,8 @@ function App() {
           </p>
           <Alarm></Alarm>
         </div>
-      </div>
-      {/* <Card></Card> */}
+      </div> */}
+      <Card></Card>
     </>
   )
 }
