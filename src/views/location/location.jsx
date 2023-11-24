@@ -7,7 +7,7 @@ import './location.css'
 export const Location = () => {
   return (
     <div className="rectangulo">
-      <img src="map.png" alt=""></img>
+      <img src="map.png" alt="" className="img" />
       <p className="h">0h 15m</p>
       <p className="d">El delivery llegara</p>
       <div className="rect">

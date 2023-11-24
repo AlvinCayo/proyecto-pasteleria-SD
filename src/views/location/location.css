@@ -56,8 +56,9 @@
   left: 26px;
   top: 180px;
 }
-img {
-  border-radius: 30px;
+.img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 .cr {
   width: 141px;
