@@ -1,0 +1,148 @@
+.p3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #fff;
+    width: 375px;
+    height: 812px;
+  }
+  
+  .inicio {
+    width: 375px;
+    height: 270px;
+    flex-shrink: 0;
+    background: #C02428;
+    position: absolute;
+    top: 0px;
+    border-radius: 30px 30px 0 0;
+  }
+  .alfajor{
+    width: 249px;
+height: 165.012px;
+flex-shrink: 0;
+border-radius: 10px;
+position: relative;
+top: 80px;
+  }
+.alfajores{
+    width: 142px;
+height: 27px;
+flex-shrink: 0;
+color: #000;
+font-family: Actor;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 70px;
+}
+.boton{
+    border-radius: 127px;
+background: #E01F23;
+}
+.desProducto{
+    width: 297px;
+height: 112px;
+flex-shrink: 0;
+    color: #5C5C5C;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.estrella{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+background: url(star.png), lightgray 50% / cover no-repeat;
+position: relative;
+right: 120px;
+top: -99px;
+}
+.disp{
+    color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 40px;
+right: 10px;
+}
+.calificacion{
+    width: 31px;
+height: 15px;
+flex-shrink: 0;
+color: #5C5C5C;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+right: 90px;
+top: -130px;
+}
+.vector1{
+    width: 10.97px;
+height: 17px;
+flex-shrink: 0;
+fill: #000;
+position: relative;
+left: 15px;
+}
+.vector2{
+    width: 10.97px;
+height: 17px;
+flex-shrink: 0;
+fill: #000;
+position: relative;
+right: 15px;
+}
+.boton10{
+    border-radius: 87px;
+border: 1px solid #BFBFBF;
+background: #FFF;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+height: 45px;
+flex-shrink: 0;
+position: relative;
+top: 40px;
+right: 100px;
+}
+.price{
+    width: 57px;
+height: 27px;
+flex-shrink: 0;
+border-radius: 31px;
+border: 1px solid #D9D9D9;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #FFF;
+position: relative;
+left: 110px;
+}
+.bs{
+    width: 103px;
+height: 19px;
+flex-shrink: 0;
+color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: relative;
+top: -10px;
+right: 25px;
+}
