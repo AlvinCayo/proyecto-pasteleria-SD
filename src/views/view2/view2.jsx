@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+import React from 'react'
+import './view2.css'
+import { Button2 } from '../../components/button2/button2'
+import buttonData2 from '../../components/button2/buttonData2'
+import { Tittle } from '../../components/tittle/tittle'
+import { BackButton } from '../../components/backButton/backButton'
+=======
 import React from "react";
 import "./view2.css";
 import { Button2 } from "../../components/button2/button2";
@@ -9,10 +17,15 @@ import { IncomeD } from "../../components/incomeData/incomeD";
 import { ButtonE } from "../../components/buttonEntry/buttonE";
 import { Tittle2 } from "../../components/tittle2/tittle2";
 import { Label } from "../../components/label/label";
+>>>>>>> main
 
 export const View2 = () => {
   return (
     <div className="p2">
+<<<<<<< HEAD
+      <Tittle />
+      <BackButton />
+=======
       <div className="arriba">
         <Tittle />
         <BackButton />
@@ -33,6 +46,7 @@ export const View2 = () => {
         <Label contenido="Olvidó su Contraseña?" tamano="13px" />
         <Label contenido="o Iniciar con" tamano="13px" />
       </div>
+>>>>>>> main
       <div className="containerButtons2">
         {buttonData2.map((button, index) => (
           <Button2
@@ -50,5 +64,5 @@ export const View2 = () => {
         <Label contenido="No tienes una cuenta? Registrate" tamano="13px" />
       </div>
     </div>
-  );
-};
+  )
+}
