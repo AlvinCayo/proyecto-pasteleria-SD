@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <View3/>
+        <View1/>
       </div>
       /
     </>
