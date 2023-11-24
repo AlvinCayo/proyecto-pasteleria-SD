@@ -24,5 +24,5 @@ export const Home = () => {
       </div>
       <Options />
     </div>
-  );
-};
+  )
+}
