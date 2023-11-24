@@ -19,15 +19,19 @@ export const View2 = () => {
       </div>
 
       <div className="Dingreso">
-        <Label contenido="Correo" />
-        <IncomeD letras="Ingresa tu Correo" />
-        <Label contenido="Contraseña" />
-        <IncomeD letras="Ingresa tu contraseña" />
-        <ButtonE />
+        <Label contenido="Correo" tamano="15px" />
+        <IncomeD letras="Ingresa tu Correo aquí" />
+        <Label contenido="Contraseña" tamano="15px" />
+        <IncomeD letras="Ingresa tu contraseña aquí" />
       </div>
 
       <div className="tittle2">
         <Tittle2 titulo="Bienvenido Inicia tu Sesión!" />
+      </div>
+      <div className="Oingreso">
+        <ButtonE nombre="Ingresar" />
+        <Label contenido="Olvidó su Contraseña?" tamano="13px" />
+        <Label contenido="o Iniciar con" tamano="13px" />
       </div>
       <div className="containerButtons2">
         {buttonData2.map((button, index) => (
@@ -41,6 +45,9 @@ export const View2 = () => {
             svg={button.svg}
           />
         ))}
+      </div>
+      <div className="registro">
+        <Label contenido="No tienes una cuenta? Registrate" tamano="13px" />
       </div>
     </div>
   );

@@ -6,12 +6,12 @@
   box-shadow: 1px 1px 4px 4px rgba(155, 52, 52, 0.25);
 }
 
-.letras {
-  position: absolute;
-  width: 132.43px;
+.letrasb {
+  position: relative;
+  width: 132px;
   height: 13px;
-  top: 13px;
-  left: 36.43px;
+  top: 12px;
+  left: 40px;
   font-family: Poppins;
   font-size: 10px;
   font-weight: 300;
