@@ -11,9 +11,6 @@ const optionData = [
   {
     svg: "/public/home4.svg",
   },
-  {
-    svg: "/public/home4.svg",
-  },
 ];
 
 export default optionData;

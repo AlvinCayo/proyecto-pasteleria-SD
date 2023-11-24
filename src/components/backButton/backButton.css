@@ -1,8 +1,7 @@
 .bButton {
-  position: absolute;
-  top: 30px;
-  left: 25px;
+  position: relative;
   background-color: transparent;
+  margin-top: 20px;
 }
 
 img{
