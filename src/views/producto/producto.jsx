@@ -4,10 +4,12 @@ import buttonCarrito from '../../components/button2/buttonCarrito'
 import { BackButton } from '../../components/backButton/backButton'
 import { Button } from '../../components/button/button'
 import { Stock } from '../../components/stock/stock'
+import { Amount } from '../../components/amount/amount'
 
 export const Producto = () => {
   return (
     <div className="p3">
+      <Amount/>
       <div className="inicio">
         <BackButton/>
         <img src="alfajor.png" alt="alfajor" className='alfajor' />
