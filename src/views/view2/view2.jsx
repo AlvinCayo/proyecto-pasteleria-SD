@@ -1,52 +1,18 @@
-<<<<<<< HEAD
 import React from 'react'
 import './view2.css'
 import { Button2 } from '../../components/button2/button2'
 import buttonData2 from '../../components/button2/buttonData2'
 import { Tittle } from '../../components/tittle/tittle'
 import { BackButton } from '../../components/backButton/backButton'
-=======
-import React from "react";
-import "./view2.css";
-import { Button2 } from "../../components/button2/button2";
-import buttonData2 from "../../components/button2/buttonData2";
-import { Tittle } from "../../components/tittle/tittle";
-import { BackButton } from "../../components/backButton/backButton";
-import { Buscador } from "../../components/buscador/buscador";
-import { IncomeD } from "../../components/incomeData/incomeD";
-import { ButtonE } from "../../components/buttonEntry/buttonE";
-import { Tittle2 } from "../../components/tittle2/tittle2";
-import { Label } from "../../components/label/label";
->>>>>>> main
+import { Buscador } from '../../components/buscador/buscador'
+import { IncomeD } from '../../components/incomeData/incomeD'
+import { ButtonE } from '../../components/buttonEntry/buttonE'
+import { Tittle2 } from '../../components/tittle2/tittle2'
+import { Label } from '../../components/label/label'
 
 export const View2 = () => {
   return (
     <div className="p2">
-<<<<<<< HEAD
-      <Tittle />
-      <BackButton />
-=======
-      <div className="arriba">
-        <Tittle />
-        <BackButton />
-      </div>
-
-      <div className="Dingreso">
-        <Label contenido="Correo" tamano="15px" />
-        <IncomeD letras="Ingresa tu Correo aquí" />
-        <Label contenido="Contraseña" tamano="15px" />
-        <IncomeD letras="Ingresa tu contraseña aquí" />
-      </div>
-
-      <div className="tittle2">
-        <Tittle2 titulo="Bienvenido Inicia tu Sesión!" />
-      </div>
-      <div className="Oingreso">
-        <ButtonE nombre="Ingresar" />
-        <Label contenido="Olvidó su Contraseña?" tamano="13px" />
-        <Label contenido="o Iniciar con" tamano="13px" />
-      </div>
->>>>>>> main
       <div className="containerButtons2">
         {buttonData2.map((button, index) => (
           <Button2

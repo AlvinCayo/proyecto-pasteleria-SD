@@ -1,0 +1,57 @@
+.rectangulo {
+  width: 375px;
+  height: 812px;
+  top: -557px;
+  left: 246px;
+  border-radius: 30px;
+  background-color: #f3ebeb;
+}
+.rojo {
+  width: 375px;
+  height: 171px;
+  flex-shrink: 0;
+  background: #c12529;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.local {
+  width: 128px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: -130px;
+  left: 15px;
+}
+.mm {
+  width: 177px;
+  color: #fff;
+  font-family: Actor;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: -140px;
+  left: 0px;
+}
+.bus {
+  position: relative;
+  top: -258px;
+  left: 20px;
+}
+.lup {
+  position: relative;
+  top: -40px;
+  left: 96px;
+}
+.tor {
+  position: relative;
+  top: -234px;
+  left: 105px;
+}

@@ -56,3 +56,23 @@
   top: -272px;
   left: -40px;
 }
+.app-container {
+  position: relative;
+  top: -337px;
+  left: 37px;
+}
+.busC {
+  position: relative;
+  top: -275px;
+  left: 20px;
+}
+.lu {
+  position: relative;
+  top: -41px;
+  left: 98px;
+}
+.torta {
+  position: relative;
+  top: -243px;
+  left: 118px;
+}
