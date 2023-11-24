@@ -19,6 +19,10 @@ export const Producto = () => {
         <h3 className='disp'>Stock:</h3>
         <Stock enStock={15}/>
       </div>
+      <div>
+        <img src="star.png" alt="star" className='estrella' />
+        <h2 className='calificacion'>4.8</h2>
+      </div>
       <div className="containerButtonCarrito">
         {buttonCarrito.map((button, index) => (
             <Button
