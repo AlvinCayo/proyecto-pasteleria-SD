@@ -12,7 +12,7 @@ import { Viewpay } from './views/viewpay/viewpay'
 function App() {
   return (
     <>
-      <Home></Home>
+      <Orders></Orders>
     </>
   )
 }
