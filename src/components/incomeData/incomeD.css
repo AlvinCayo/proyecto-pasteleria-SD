@@ -1,0 +1,23 @@
+.incomeD {
+  width: 261px;
+  height: 37px;
+  border-radius: 5px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.letras {
+  position: relative;
+  width: 160px;
+  height: 13px;
+  top: 12px;
+  left: 16px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(183, 183, 183, 1);
+}

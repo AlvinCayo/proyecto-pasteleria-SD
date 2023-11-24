@@ -1,0 +1,48 @@
+.producto {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px 5px 5px 5px;
+  background: rgba(155, 52, 52, 0.05);
+}
+
+.cartera {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  align-items: center;
+  position: relative;
+  top: -20px;
+  left: 80px;
+}
+
+.detalles {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.nProducto {
+  color: #9b3434;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.precio {
+  color: #959595;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}

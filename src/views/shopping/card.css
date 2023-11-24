@@ -1,0 +1,58 @@
+.rectangu {
+  width: 375px;
+  height: 812px;
+  top: -557px;
+  left: 500px;
+  border-radius: 30px;
+  background-color: #f3ebeb;
+}
+.rojo {
+  width: 375px;
+  height: 171px;
+  flex-shrink: 0;
+  background: #c12529;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.local {
+  width: 128px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: -155px;
+  left: 50px;
+}
+.mm {
+  width: 177px;
+  color: #fff;
+  font-family: Actor;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: -160px;
+  left: 24px;
+}
+.busqueda {
+  color: #b7b7b7;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+
+  width: 246px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 1px 4px 4px rgba(155, 52, 52, 0.25);
+  position: relative;
+  top: -272px;
+  left: -40px;
+}
