@@ -1,0 +1,78 @@
+.p3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #fff;
+    width: 375px;
+    height: 812px;
+  }
+  
+  .inicio {
+    width: 375px;
+    height: 270px;
+    flex-shrink: 0;
+    background: #C02428;
+    position: absolute;
+    top: 0px;
+    border-radius: 30px 30px 0 0;
+  }
+  .alfajor{
+    width: 249px;
+height: 165.012px;
+flex-shrink: 0;
+border-radius: 10px;
+position: relative;
+top: 80px;
+  }
+.alfajores{
+    width: 142px;
+height: 27px;
+flex-shrink: 0;
+color: #000;
+font-family: Actor;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 10px;
+}
+.boton{
+    border-radius: 127px;
+background: #E01F23;
+}
+.desProducto{
+    width: 297px;
+height: 112px;
+flex-shrink: 0;
+    color: #5C5C5C;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.estrella{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+background: url(star.png), lightgray 50% / cover no-repeat;
+}
+.disp{
+    color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: -10px;
+right: 10px;
+}
+  
