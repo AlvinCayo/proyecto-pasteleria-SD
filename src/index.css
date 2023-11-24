@@ -17,15 +17,15 @@ button {
 }
 
 .titulo1 {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .titulo2 {
-  font-family: "Modern Antiqua", serif;
+  font-family: 'Modern Antiqua', serif;
 }
 
 title {
-  font-family: "Actor", sans-serif;
+  font-family: 'Actor', sans-serif;
 }
 
 .letras {
@@ -33,5 +33,5 @@ title {
 }
 
 .namePage {
-  font-family: "Actor", sans-serif;
+  font-family: 'Actor', sans-serif;
 }

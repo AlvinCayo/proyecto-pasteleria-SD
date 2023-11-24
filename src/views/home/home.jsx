@@ -1,8 +1,8 @@
-import React from "react";
-import "./home.css";
-import { Buscador } from "../../components/buscador/buscador";
-import { NamePage } from "../../components/namePage/namePage";
-import { Options } from "../../components/options/options";
+import React from 'react'
+import './home.css'
+import { Buscador } from '../../components/buscador/buscador'
+import { NamePage } from '../../components/namePage/namePage'
+import { Options } from '../../components/options/options'
 import { ButtonLupa } from "../../components/buttonLupa/buttonLupa";
 import { Categori } from "../../components/categori/categori";
 import { Product } from "../../components/product/product";
@@ -31,5 +31,5 @@ export const Home = () => {
       </div>
       <Options />
     </div>
-  );
-};
+  )
+}

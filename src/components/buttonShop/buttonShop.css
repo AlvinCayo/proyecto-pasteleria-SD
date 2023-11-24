@@ -1,0 +1,70 @@
+/* ButtonShop.css */
+.button-shop {
+  width: 287px;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 2px 14px 5px rgba(155, 52, 52, 0.25);
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  top: -250px;
+  left: 40px;
+}
+
+.button-shop:hover {
+  background-color: #ffd699;
+}
+
+.button-shop img {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  /* border-radius: 50%; */
+  margin-right: 10px;
+}
+
+.button-shop .info {
+  flex-grow: 1;
+}
+
+.button-shop h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #ca2329;
+}
+
+.button-shop p {
+  margin: 5px 0;
+  font-size: 12px;
+  position: relative;
+  left: -10px;
+}
+
+.button-shop .rating {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  position: relative;
+  left: 60px;
+}
+.app-container {
+  max-width: 800px; /* Ajusta según tus necesidades */
+  margin: 0 auto;
+  overflow: hidden; /* Evita que los botones se desborden en dispositivos pequeños */
+  position: relative;
+  top: -275px;
+}
+
+.button-container {
+  max-height: 560px; /* Ajusta según tus necesidades */
+  overflow-y: auto;
+  padding-right: 1px; /* Ajusta según el grosor de la barra de desplazamiento */
+  position: relative;
+  top: 30px;
+}

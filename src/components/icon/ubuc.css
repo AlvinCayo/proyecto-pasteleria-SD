@@ -1,0 +1,9 @@
+.u {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  position: relative;
+  top: -120px;
+  left: -130px;
+  background-color: white;
+}

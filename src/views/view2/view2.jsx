@@ -33,6 +33,7 @@ export const View2 = () => {
         <Label contenido="Olvidó su Contraseña?" tamano="13px" />
         <Label contenido="o Iniciar con" tamano="13px" />
       </div>
+
       <div className="containerButtons2">
         {buttonData2.map((button, index) => (
           <Button2
@@ -50,5 +51,5 @@ export const View2 = () => {
         <Label contenido="No tienes una cuenta? Registrate" tamano="13px" />
       </div>
     </div>
-  );
-};
+  )
+}
