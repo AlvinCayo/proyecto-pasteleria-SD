@@ -8,4 +8,3 @@ export const Buscador = ({ letras }) => {
     </div>
   )
 }
->>>>>>> main
