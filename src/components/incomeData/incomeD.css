@@ -1,17 +1,18 @@
-.buscador {
+.incomeD {
   width: 261px;
   height: 37px;
   border-radius: 5px;
+  border-radius: 10px;
+  border: 1px solid #000;
   background-color: rgba(255, 255, 255, 1);
-  box-shadow: 1px 1px 4px 4px rgba(155, 52, 52, 0.25);
 }
 
-.letrasb {
+.letras {
   position: relative;
-  width: 132px;
+  width: 160px;
   height: 13px;
   top: 12px;
-  left: 40px;
+  left: 16px;
   font-family: Poppins;
   font-size: 10px;
   font-weight: 300;

@@ -1,0 +1,29 @@
+.cat {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: linear-gradient(0deg, #9b3434, #9b3434),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1px solid rgba(155, 52, 52, 1);
+  color: #9b3434;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ico {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}

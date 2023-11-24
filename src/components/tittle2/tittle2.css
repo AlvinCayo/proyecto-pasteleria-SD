@@ -1,0 +1,13 @@
+.Titulo2 {
+  width: 226px;
+  height: 56px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+}
