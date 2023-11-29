@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from 'react'
 import { Location } from './views/location/location'
 import { Card } from './views/shopping/card'
